@@ -1,0 +1,151 @@
+* {
+    font: 400 1rem Roboto, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.main {
+    color: white;
+    width: 756px;
+    height: 514px;
+    padding: 100px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: black;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    width: 523px;
+    height: 40px;
+}
+
+.label-password {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    background: black;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.label-email {
+    position: absolute;
+    top: -7px;
+    left: 50px;
+    background: black;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.input-password {
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    background: black;
+    color: white;
+    outline: none;
+
+    
+    margin-top: 25px;
+}
+
+.input-email {
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    background: black;
+    color: white;
+    outline: none;
+}
+
+.icon-eye {
+    font-size: 25px;
+    position: absolute;
+    top: 54px;
+    right: 0;
+    transform: translateY(-60%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 185px;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #8d8c8c;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.forgot-password button {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.forgot-password a {
+    color: white;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+.link-login {
+    margin-top: 10px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
